@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    #header{
+        background-color:black;
+        width: 100vw;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        height: auto;
+        color: whitesmoke;
+        font: bold;
+        font-size: 60px;
+        text-align: left;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        justify-content: space-between;
+        display: flex;
+        
+    }
+   
+    body{
+        background-color: whitesmoke;
+    }
+    
+    .nav{
+        font-size: 20px;
+        background-color:black;
+        color: whitesmoke;
+        overflow: hidden;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+
+    }
+    .nav a{
+        float: right;
+        padding: 14px 16px;
+        font-size: larger;
+        text-decoration: none;
+        color: beige;
+    }
+    .nav a.active{
+        color:burlywood;
+        text-decoration-color: blanchedalmond;
+    }
+    .nav a:hover{
+        color: blue;
+    }
+    .home{
+        display: flex;
+        font-family: sans-serif;
+        padding-top: 40px;
+        
+    }
+    .home h1{
+        padding: 20px 20px;
+    }
+    .home p{
+        padding: 20px 20px;
+    }
+    .home img{
+        border-radius: 30px;
+        width: 50%;
+        height: 80vh;
+    }
+  
+    h1{
+        font-size: 70px;
+        
+    }
+    p{
+        font-size: 50px;
+        padding-top: 14px;
+    }
+    div{
+        resize: none;
+        overflow: auto;
+        margin-top: 10px;
+    }
+    
+  
+    input{
+        height: 60px;
+        border-color: black;
+        border-radius: 10px;
+
+    }
+    .offered1{
+        display: flex;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .offered1 img{
+        border-radius: 30px;
+        width: 50%;
+    }
+    .offered1 h2{
+        padding: 20px 20px;
+    }
+    .offered1 p{
+        padding: 20px 20px;
+    }
+    .offered2{
+        display: flex;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .offered2 img{
+        border-radius: 30px;
+        width: 40%;
+    }
+    .offered2 h1{
+        padding: 20px 20px;
+    }
+    .offered2 p{
+        padding: 20px 20px;
+    }
+    .comments{
+        margin-top: 100px;
+        border-color: gray;
+        background-color: gray;
+        color: wheat;
+        border-radius: 20px;
+        text-align: center;
+        padding: 40px;
+    }
+    .comments img{
+        border-radius: 40px;
+        width: 70px;
+
+    }
+    C.comments p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 100;
+    }
+    .images h1{
+        text-align: center;
+    }
+    marquee{
+        font-size: 60px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .next{
+        text-align: center;
+
+    }
+    .containor{
+        background-color: gray;
+        position: relative;
+        left: 26%;
+        
+        display: flex;
+        align-items: flex-start;
+        width: 50%;
+        overflow:hidden; 
+    }
+    .slide img{
+        width:100px;
+        height: 100px;
+
+
+    }
+
+.swiper {
+  position: relative;
+  animation-name: move;
+  animation-duration: 4s; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: linear; 
+}
+
+@keyframes move {
+  0% { left: 0%; } 
+  100% { left: 100%; } 
+}
+
+    
+</style>
+<script>
+    const swiper = new ('.swiper',{autoplay:{delay:3000,
+    disableon}})
+</script>
+    
+
+<section id="header">
+    <div>
+          <p>BAHAMAS FOOD SUPPLIES</p>
+    </div>
+
+        <div class="nav">
+            <a href="#home" >home</a>
+            <a href="foods page.html">foods</a>
+            <a href="#contact">contact</a>
+            <a href="#about">about</a>
+        </div>
+    
+    
+</section>
+    
+
+
+
+
+   <div class="home">
+    <div>
+       
+        
+    <h1> Get your food and goods supply needs delivered to your doorstep</h1>
+    <p>Enjoy hassle-free delivery straight to your doorstep. Our reliable delivery team ensures that your orders are delivered fresh and on-time.</p><br>
+    
+    </div>
+
+    <img src="file:///C:/Users/Admin/Downloads/Tandoori%20Chicken%20Recipe%20(Authentic,%20Easy%20&%20Best)%20-%20Cubes%20N%20Juliennes%20(1).jpeg">
+   </div>
+
+   <div class="offered1">
+
+    <img src="file:///C:/Users/Admin/Downloads/InstacartCloneApp.jpeg">
+    <div>
+
+    <h1><b>WIDE SELECTION</b></h1>
+    <p>Find everything you need in one place with our extensive selection of junk food, traditional food, dairy products ie smoothies, vegetables and spices.</p>
+
+    </div>
+
+   </div>
+
+   <div class="offered2">
+    <div>
+
+        <h1><b>FAST AND RELIABLE DELIVERY</b></h1>
+        <p>Enjoy hassle-free delivery straight to your doorstep. Our reliable delivery team ensures that your orders are delivered fresh and on-time.</p>
+
+     </div>
+     <img src="file:///C:/Users/Admin/Downloads/Delivery%20Truck_%20Vector%20Illustrations.jpeg">
+
+   </div>
+   <div class="next">
+    <a href="foods page.html"> CLICK TO GO TO THE NEXT PAGE </a>
+
+   </div>
+
+  
+   <div class="images">
+    <h1><b></b></h1>
+   </div>
+
+   <div class="food">
+
+
+   </div>
+
+
+   <div class="containor">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="slide">
+                <img src="file:///C:/Users/Admin/Downloads/food.jpeg" alt="">
+                <img src="file:///C:/Users/Admin/Downloads/Smoothie%20fraises,%20faisselle%20&%20lait%20d%E2%80%99amande.jpeg" alt="">
+                <img src="file:///C:/Users/Admin/Downloads/03259a55-4e92-4482-9d42-fa15edd2efbe.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <div class="comments">
+    <p>"I have been shopping with QuickMart for years now, and I love how they always have everything I need in one place."</p><br>
+    <img src="file:///C:/Users/Admin/Downloads/Delivery%20Truck_%20Vector%20Illustrations.jpeg">
+    <p> DOROTHY HAWKINS </p>
+    
+
+   </div>
+
+   <script src="js style.js"></script>
+
+
+
+        
+</body>
+</html>
